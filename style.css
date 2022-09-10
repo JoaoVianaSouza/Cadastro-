@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: rgb(160, 157, 157);
+}
+legend{
+    text-align: center;
+    font-size: 300%;
+    font-style:oblique;
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    text-align: justify;
+}
+#cadastro{
+    display: block;
+    border: 3px solid;
+    margin-top: 250px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 10px;
+    background-color:  rgb(107, 166, 180);
+}
+#env, #limp{
+cursor: pointer;
+}
+

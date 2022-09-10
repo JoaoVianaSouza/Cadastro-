@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <fieldset id="cadastro"> <legend> Cadastro</legend>
+        <form action="index.php" method="get">
+            Nome:
+                <input type="text" name="nome" id="nome"> <br>
+            Endereço:
+                <input type="text" name="endereco" id="end"> <br>
+            Nascimento:
+                <input type="date" name="nascimento" id="nasc"> <br>
+            Sexo:
+                <input type="radio" name="sexo" checked value="n"> Masculino
+                <input type="radio" name="sexo" checked value="f"> Feminino <br>
+            Linguagens:
+                <input type="checkbox" name="h1" value="HTML5"> HTML5
+                <input type="checkbox" name="h2" value="CSS"> CSS
+                <input type="checkbox" name="h3" value="JavaScript"> JavaScript <br>
+            UF:
+                <select name="uf" id="uf">
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="ES">ES</option>
+                    <option value="MG">MG</option>
+                </select> <br>
+            <textarea name="obs" id="obs" cols="60" rows="5">Escreva sobre você e seu interesse pela vaga</textarea> <br>
+            <div id="botao">
+                <input type="submit" value="Enviar" id="env"> 
+                <input type="reset" value="Limpar" id="limp"> <br>
+            </div>   
+        </form>
+    </fieldset>
+</body>
+</html>
